@@ -11,7 +11,7 @@
         {
           "name": "LAMBDA Boards",
           "architecture": "avr",
-          "version": "0.0.1rc1",
+          "version": "0.0.1",
           "category": "avr",
           "help": {
             "online": ""
