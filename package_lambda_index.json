@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "name": "lambda",
+      "maintainer": "IOXhop", 
+      "help": {
+        "online": ""
+      }, 
+      "websiteURL": "https://github.com/maxpromer/lambda-library", 
+      "platforms": [
+        {
+          "name": "LAMBDA Boards",
+          "architecture": "avr",
+          "version": "0.0.1",
+          "category": "avr",
+          "help": {
+            "online": ""
+          },
+          "url": "https://raw.githubusercontent.com/maxpromer/lambda-library/master/stable/lambda-hardware-v0.0.1.tar.gz",
+          "archiveFileName": "lambda-hardware-v0.0.1.tar.gz",
+          "checksum": "SHA-256:	d474ebc19a2bf5fae9847272664df486e9a205132e57688555c8817e3a283e46",
+          "size": "4140",
+          "boards": [
+            {"name": "LAMBDA Lite"},
+            {"name": "LAMBDA Basic"},
+            {"name": "LAMBDA Plus"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "lambda",
+              "name": "lambda-gcc",
+              "version": "0.0.1"
+            }
+          ]
+        }
+	  ], 
+      "tools": [
+        {
+          "name": "lambda-gcc", 
+          "version": "0.0.1", 
+          "systems": [
+            {
+              "url": "https://raw.githubusercontent.com/maxpromer/lambda-library/master/stable/lambda-gcc-v0.0.1.tar.gz", 
+              "checksum": "SHA-256:1c451016ec5e4bc339204f3c30e6b7cfbafe03affab2ec21189f7a6c2c6814e8", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "lambda-gcc-v0.0.1.tar.gz", 
+              "size": "54009438"
+            }
+          ]
+        }
+      ], 
+      "email": "max30012540@hotmail.com", 
+      "name": "lambda"
+    }
+  ]
+}
