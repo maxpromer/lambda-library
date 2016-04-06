@@ -19,7 +19,7 @@
           "url": "https://raw.githubusercontent.com/maxpromer/lambda-library/master/stable/lambda-hardware-v0.0.1rc1.tar.gz",
           "archiveFileName": "lambda-hardware-v0.0.1rc1.tar.gz",
           "checksum": "SHA-256:961b23528beb3c1cddda6c96a8bbf26e7049678fecb83cedd6cc7357fcd69ff5",
-          "size": "4140",
+          "size": "4082",
           "boards": [
             {"name": "LAMBDA Lite"},
             {"name": "LAMBDA Basic"},
