@@ -11,6 +11,31 @@
         {
           "name": "LAMBDA Boards",
           "architecture": "avr",
+          "version": "0.0.1rc1",
+          "category": "avr",
+          "help": {
+            "online": ""
+          },
+          "url": "https://raw.githubusercontent.com/maxpromer/lambda-library/master/stable/lambda-hardware-v0.0.1rc1.tar.gz",
+          "archiveFileName": "lambda-hardware-v0.0.1rc1.tar.gz",
+          "checksum": "SHA-256:1073d47c6fcb2cd20ebf6e1668ad9b0e0dd58ff1d2cb286eac2b3ba66e26cd6f",
+          "size": "23017",
+          "boards": [
+            {"name": "LAMBDA Lite"},
+            {"name": "LAMBDA Basic"},
+            {"name": "LAMBDA Plus"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "lambda",
+              "name": "lambda-gcc",
+              "version": "0.0.1"
+            }
+          ]
+        },
+        {
+          "name": "LAMBDA Boards",
+          "architecture": "avr",
           "version": "0.0.1",
           "category": "avr",
           "help": {
