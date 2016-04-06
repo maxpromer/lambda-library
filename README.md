@@ -5,7 +5,7 @@
 
 ## การติดตั้ง
 * เปิดโปรแกรม Arduino IDE ขึ้นมา จากนั้นกดไปที่ File > Preferences 
-* ในช่อง Additional Boards Manager URLs กรอก https://rawgit.com/maxpromer/lambda-library/master/package_lambda_index.json ลงไป แล้วกดปุ่ม OK
+* ในช่อง Additional Boards Manager URLs กรอก http://file.host-1gb.com/package_lambda_index.json ลงไป แล้วกดปุ่ม OK
 * กดไปที่ Tool > Board > Boards Manager เลื่อนหา LAMBDA Boards กด Install รอจนกว่าจะโหลดเสร็จ จากนั้นปิดหน้าต่างไป
 * เลือกบอร์ด เลือกพอร์ต จากนั้นทดลอง Upload ได้เลย
 
