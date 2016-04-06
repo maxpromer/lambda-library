@@ -28,5 +28,5 @@ lambda.bootloader.file=optiboot/optiboot_atmega328.hex
 lambda.build.mcu=atmega328pb
 lambda.build.f_cpu=16000000L
 lambda.build.board=AVR_UNO
-lambda.build.core=arduino
+lambda.build.core=arduino:arduino
 lambda.build.variant=lambda
